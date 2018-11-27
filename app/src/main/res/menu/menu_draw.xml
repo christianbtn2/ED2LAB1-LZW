@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+    <group android:checkableBehavior="single">
+        <item android:title="HUFFMAN" />
+        <item
+            android:id="@+id/nav_compresion"
+            android:icon="@drawable/ic_compress"
+            android:title="COMPRESION"
+            android:visible="true" />
+        <item
+            android:id="@+id/nav_decompression"
+            android:icon="@drawable/ic_decompress"
+            android:title="DESCOMPRESION"
+            android:visible="true" />
+    </group>
+    <item android:title="LZW">
+        <menu>
+            <item
+                android:id="@+id/nav_compressLZW"
+                android:icon="@drawable/ic_compress"
+                android:title="COMPRESION" />
+            <item
+                android:id="@+id/nav_decompressLZW"
+                android:icon="@drawable/ic_decompress"
+                android:title="DESCOMPRESION" />
+        </menu>
+    </item>
+
+    <item android:title="Historial">
+        <menu>
+            <item
+                android:id="@+id/bitacora"
+                android:icon="@drawable/ic_bitacora"
+                android:title="Mis Compresiones" />
+        </menu>
+    </item>
+
+
+</menu>

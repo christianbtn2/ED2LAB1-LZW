@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/anunciolzw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/buttonlzw"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="-273dp"
+        android:text="    Seleccione una ruta o se le asiganara una predeterminada" />
+
+    <Button
+        android:id="@+id/buttonlzw"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="317dp"
+        android:text="Seleccionar Archivo" />
+
+    <Button
+        android:id="@+id/buttonselectpath"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="181dp"
+        android:text="Seleccionar Ruta resultado"
+
+        />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="65dp"
+        android:text="COMPRESION LZW"
+        android:textSize="30sp" />
+
+</RelativeLayout>
